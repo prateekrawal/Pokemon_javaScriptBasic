@@ -1,0 +1,59 @@
+body
+{
+	background-image: url("image/v.jpg");
+}
+/*#pokemon_image
+{
+	display:block;
+}*/
+.normal
+{
+	height:150px;
+	width:150px;
+	display:inline-block;
+	margin:15px 15px 15px 15px;
+}
+button
+{
+	height:50px;
+	width:50px;
+	border-radius: 5px;
+	border-style: solid;
+	border-color: #a9c19c;
+	box-shadow: 1px 1px 1px #70726f;
+	font-weight: bold;
+	display:inline-block;
+	margin: 65px 65px 65px 65px;
+}
+button:hover
+{
+	
+	margin: 60px 60px 60px 60px;
+	height:60px;
+	width:60px;
+}
+#container
+{
+	display: block;
+	margin: 100px 100px 120px 120px;
+	align-content: center;
+}
+#message
+{
+	font-family: Comic Sans, Comic Sans MS, cursive;
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	text-align: center;
+	border-style: solid;
+	border-radius: 15px;
+	border-width: 2px;
+	background-color: rgba(10,10,10,.3);
+	box-shadow: 1px 1px 1px #70726f;
+}
+.zoom
+{
+	height:170px;
+	width:170px;
+	display:inline-block;
+	margin:5px 5px 5px 5px;
+}

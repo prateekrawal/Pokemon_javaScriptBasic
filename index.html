@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pokemon sound game</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="container">
+	<div id="pokemon_image" >
+		<span>
+			<img  id="80" class="normal" src="image/pikachuu.png" >
+		</span>
+		<span  >
+			<img id="66" class="normal" src="image/bulbasour.png">
+		</span>
+		<span  >
+			<img id="67" class="normal" src="image/charmendor.png" >
+		</span>
+		<span >
+			<img id="83" class="normal" src="image/squirtle.png" >
+		</span>
+		<span >
+			<img id="77" class="normal" src="image/Meowth.png" >
+		</span>
+	</div>
+	<div id= "buttons">
+		<button data-key="80" id="P">P</button>
+		<button data-key="66"id="B">B</button>
+		<button data-key="67"id="C">C</button>
+		<button data-key="83"id="S">S</button>
+		<button data-key="77" id="M">M</button>
+	</div>
+	<div id="message">
+		<p id="data">Press respective key to hear Pokemon</p>
+	</div>
+</div>
+  <audio data-key="80" src="sound/pika.mp3"></audio>
+  <audio data-key="66" src="sound/bulbasaur.mp3"></audio>
+  <audio data-key="67" src="sound/charmander.mp3"></audio>
+  <audio data-key="83" src="sound/squirtle.mp3"></audio>
+  <audio data-key="77" src="sound/meowth.mp3"></audio>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<script src="javaScript.js"></script>
+</body>
+</html>
