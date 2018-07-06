@@ -12,9 +12,14 @@ squirtle=document.getElementById('squirtle');
 window.addEventListener('click',playS,false);
 function playS(e)
 {
-	var tar=e.target;
-	var audio=document.querySelector('audio[]');
+	var tar=event.target;
+	var x=tar.id;
+	console.log(x)
+	var a=document.getElementById(x);
+	document.getElementById(x).className="zoom";
+	audio.currentTime=0;
 	audio.play();
+	setTimeout(function(){ document.getElementById(x).className="normal"; }, 1250);
 }*/
 window.addEventListener('keydown', playSound);
 function playSound(e)
@@ -28,6 +33,7 @@ function playSound(e)
 	document.getElementById(x).className="zoom";
 	audio.currentTime=0;
 	audio.play();
+	document.getElementById(data).textContent={}
 	setTimeout(function(){ document.getElementById(x).className="normal"; }, 1250);
 
 
